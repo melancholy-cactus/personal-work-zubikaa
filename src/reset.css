@@ -1,0 +1,22 @@
+body > div{
+    display: flex;
+    flex-direction: column;
+    width: 87vw;
+    margin: 0 auto;
+    min-width: 368px;
+    max-width: 1920px;
+    gap: 0.25rem;
+}
+@media (min-width: 768) {
+    body > div{
+        width: 96vw;
+    }   
+}
+html{
+    font-size: 16px;
+    font-family: Inter;
+    color: #0B1739;
+}
+p{
+    margin: 0px;
+}

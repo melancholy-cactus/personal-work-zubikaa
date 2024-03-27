@@ -1,0 +1,72 @@
+.HelloInvestment{
+    border-radius: 20px;
+    background: no-repeat center url('../../../SVG/HelloInvestBackground.svg');
+    background-size: 100%;
+    box-sizing: border-box;
+    font-family: Inter;
+    padding: 2rem 1.5rem 0 1.5rem;
+    height: 420px;
+}
+.HelloInvestment-Title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.HelloInvestment-Wrap{
+    display: flex;
+}
+
+.HelloInvestment .presentation-right{
+    overflow:visible;
+    z-index: 1;
+}
+
+.presentation-left{
+    width: 50%;
+}
+
+.presentation-right{
+    text-align: right;
+    width: 50%;
+}
+
+.MainPhone{
+    width: 90%;
+    min-width: 176px;
+    max-width: 200px;
+}
+
+@media (min-width: 768px){
+
+    .presentation-right{
+        text-align: left;
+    }
+
+    .presentation-left{
+        width: 70%;
+        padding-top: 4rem;
+        position: relative;
+    }
+
+    .presentation-left-right{
+        position: absolute;
+        right: 0px;
+    }
+
+    .MainPhone{
+        max-width: 220px;
+        width: 110%;
+    }
+}
+
+@media (min-width: 1280px){
+
+    .MainPhone{
+        min-width: 410px;
+        margin-top: -40px;
+    }
+
+    .presentation-left{
+        width: 50%;
+    }
+}

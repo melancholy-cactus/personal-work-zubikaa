@@ -1,0 +1,88 @@
+.DoubleBanner{
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    gap: 4px;
+}
+
+.DoubleBanner-Title,.DoubleBanner-Content{
+    border-radius: 20px;
+    background-color: #EEF0F7;
+}
+
+.DoubleBanner-Title{
+    padding-left: 1.5rem;
+    height: 96px;
+}
+
+.DoubleBanner-Nested{
+    display: flex;
+    font-weight: 700;
+    height: 6rem;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.DoubleBanner-Content{
+    height: 180px;
+    text-align: center;
+    padding-top: 35px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.On-768,.On-1280,.On-1920{
+    display: none;
+}
+
+@media (min-width: 366px){   
+    .DoubleBanner-Title{
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+    }
+}
+
+
+@media (min-width: 768px){
+
+    .Off-768{
+        display: none;
+    }
+
+    .On-768{
+        display: inline;
+    }
+
+}
+
+@media (min-width: 1280px){
+
+    .Off-1280{
+        display: none;
+    }
+    
+    .On-1280{
+        display: inline;
+    }
+}
+
+@media (min-width: 1920px){
+
+    .Off-1920{
+        display: none;
+    }
+    
+    .On-1920{
+        display: inline;
+    }
+
+    .DoubleBanner-Content{
+        height: 360px;
+        padding-top: 55px;
+    }
+
+    .DoubleBanner{
+        height: 460px;
+    }
+}

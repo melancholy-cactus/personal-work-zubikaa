@@ -1,0 +1,15 @@
+.ThreeStep-Banner{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ThreeStep-Banner > div{
+    width: 100%;
+}
+
+@media (min-width: 1280px){
+    .ThreeStep-Banner{
+        flex-direction: row;
+    }
+}

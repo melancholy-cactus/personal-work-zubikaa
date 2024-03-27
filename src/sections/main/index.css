@@ -1,0 +1,14 @@
+/* HelloInvest */
+@import url("./HelloInvest/index.css");
+
+/* ThreeStep-Banner */
+@import url("./ThreeStep-Banner/index.css");
+
+/* HelloInvestEndPage */
+@import url("./HelloInvestEndPage/index.css");
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
